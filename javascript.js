@@ -215,7 +215,7 @@ function resizeSmall() {
     });
 }
 
-var sizeThreshold = 750;
+var sizeThreshold = 990;
 
 $(document).ready(function() {
     $(window).resize(function() {
