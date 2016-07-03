@@ -177,6 +177,7 @@ function resizeSmall() {
     var aboutHeight = 400;
     var aboutTop = landHeight + border;
     var aboutTextHeight = $("#whoWeAre").height() + $("#whoBody").height();
+    console.log($("#whoWeAre").height(), $("#whoBody").height());
     var boxesHeight = 1400;
     var boxesTop = aboutTop + aboutHeight + (border);
     var contactHeight = 300;

@@ -266,6 +266,7 @@ box-shadow: 0px 0px 98px -16px rgba(0,0,0,0.75);
 }
 .box_button{
 	border:3px solid $box-text-color;
+	color: $box-text-color;
 	position: absolute;
 	margin: auto;
 	height:30px;
@@ -273,7 +274,6 @@ box-shadow: 0px 0px 98px -16px rgba(0,0,0,0.75);
 	bottom:0;left:0;right:0;
 }
 .box_button_text{
-	color: $box-text-color;
 	text-align: center;
     font-family: Arial, sans-serif;
     font-style: italic;
@@ -336,29 +336,21 @@ a:hover {
 a:active {
 	color:#e4dcb4;
 }
-
-
-
-
-
 .buttonHover{  
 	-webkit-box-shadow: inset 0px 0px 57px -24px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 0px 0px 57px -24px rgba(0,0,0,0.75);
 	box-shadow: inset 0px 0px 57px -24px rgba(0,0,0,0.75);
 }
-
 .boxHover{  
 	-webkit-box-shadow: inset 0px 0px 57px -24px rgba(0,0,0,0.75);
 	-moz-box-shadow: inset 0px 0px 57px -24px rgba(0,0,0,0.75);
 	box-shadow: inset 0px 0px 57px -24px rgba(0,0,0,0.75);
 	opacity: .94;
 }
-
 .boxButtonHover{
 	background-color: $box-text-color;
 	color:$box-color;
 }
-
 .arrowHover{
 	color:#ece4e4;
 }
